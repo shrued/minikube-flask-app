@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: flask-test-app
-          image: docker.io/<dockerhub_username>/minikube-flask-app
+          image: docker.io/shrued/minikube-flask-app
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5000
